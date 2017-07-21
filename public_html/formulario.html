@@ -6,12 +6,14 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>contacts</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type='text/css' href=css/estilos.css>
     </head>
     <body>
         <div id="cabecera">
+            <div id="menu">
             <ul>
             <li><a href="index.html">Find a Hotel</a></li>
             <li>Plan an Event</li>
@@ -19,7 +21,7 @@ and open the template in the editor.
             <li>Contacts</li>
             </ul>
                 </div>
-        
+            </div>
             <h1>Formulario de contacto</h1>
             <form>
                 <div>
@@ -37,17 +39,18 @@ and open the template in the editor.
                 <input type='text' id='Correo'/>
                 </div>
                 
-                <div>
+                <div id="select">
                 <label for="so">What you need?</label> <br/>
-<select id="so" name="so">
-  <option value="" selected="selected">- Choose -</option>
-  <option value="Help">Help</option>
-  <option value="Find us">Find us</option>
-  <option value="Feedback">Feedback</option>
-  <option value="Other">Other</option>
-</select>
-
+                <select id="so" name="so">
+                <option value="" selected="selected">- Choose -</option>
+                <option value="Help">Help</option>
+                <option value="Find us">Find us</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Other">Other</option>
+                </select>
+                
                 </div>
+                
                   <div>
                 <label for='asunto'>Observation:</label>
                   <textarea id='asunto' cols='50' rows='10'></textarea>
@@ -57,6 +60,12 @@ and open the template in the editor.
                 </div>
                 
             </form>
-     
+     <div id="pie">
+            USA and Canada only - Four Seasons Reservations
+            +1 (800) 819-5053.</br>
+            <img src="imagenes/img2.png"/>
+            <img src="imagenes/img3.png" />
+            <img src="imagenes/img4.png"/>
+        </div>
     </body>
 </html>
